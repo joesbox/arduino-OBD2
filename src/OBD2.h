@@ -131,8 +131,6 @@ public:
 
   void setTimeout(unsigned long timeout);
 
-  int clearAllStoredDTC();
-
 private:
   int supportedPidsRead();
 
