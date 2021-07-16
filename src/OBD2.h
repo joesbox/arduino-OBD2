@@ -3,6 +3,9 @@
 
 #ifndef OBD2_H
 #define OBD2_H
+#include <stdint.h>
+#include <stdlib.h>
+#include <Wstring.h>
 
 enum {
   PIDS_SUPPORT_01_20                                = 0x00,

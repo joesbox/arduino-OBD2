@@ -9,7 +9,12 @@
 
 #include "OBD2.h"
 
+// Select which CAN module to use
+//FlexCAN_T4<CAN0, RX_SIZE_256, TX_SIZE_16> Can0;
 FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> Can0;
+//FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> Can0;
+//FlexCAN_T4<CAN3, RX_SIZE_256, TX_SIZE_16> Can0;
+
 CAN_message_t txMsg, rxMsg;
 
 const char PID_NAME_0x00[] PROGMEM = "PIDs supported [01 - 20]";
